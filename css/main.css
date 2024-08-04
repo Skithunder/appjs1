@@ -1,0 +1,11 @@
+h1 {
+    font-size: x-large;
+}
+.myp1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+#myp2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+}
