@@ -27,3 +27,12 @@ header {
     background-color: #ff0000;
 
 }
+.wrapper{
+    width: 500px;
+    height: 500px;
+    
+    }
+    model-viewer{
+      height: 100%;
+      width: auto;
+    }
