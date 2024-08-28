@@ -1,11 +1,29 @@
+/* https://all-free-download.com/font/ 
+ttf font is placed in fonts folder in root
+you can load multiple fonts in one css file */
+@font-face {
+    font-family: zaka;
+    src: url(../fonts/ZakirahsHand.ttf);
+  }
 h1 {
     font-size: x-large;
 }
 .myp1 {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: medium;
+    font-family: zaka; /* here I load the zaka font downloaded*/
+    font-size:x-large;
 }
 #myp2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: larger;
+}
+
+header {
+    background-color:blue;
+    color:white;
+    
+}
+.phone {
+    
+    background-color: #ff0000;
+
 }
