@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .calculator {
     max-width: 400px;
     margin: 50px auto;
@@ -17,3 +18,85 @@
     margin: 1%;
     font-size: 18px;
 }
+=======
+/* https://all-free-download.com/font/ 
+ttf font is placed in fonts folder in root
+you can load multiple fonts in one css file */
+@font-face {
+    font-family: zaka;
+    src: url(../fonts/ZakirahsHand.ttf);
+  }
+h1 {
+    font-size: x-large;
+}
+.myp1 {
+    font-family: zaka; /* here I load the zaka font downloaded*/
+    font-size:x-large;
+}
+#myp2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+}
+
+header {
+    background-color:blue;
+    color:white;
+    
+}
+.phone {
+    
+    background-color: #ff0000;
+
+}
+.myar {
+    width: 100px;
+    height: 50px;
+}
+.wrapper{
+    width: 500px;
+    height: 500px;
+    
+    }
+    model-viewer{
+      height: 100%;
+      width: auto;
+    }
+
+/* This keeps child nodes hidden while the element loads */
+:not(:defined) > * {
+    display: none;
+  }
+
+
+  #ar-button {
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 12px 50%;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    bottom: 132px;
+    padding: 0px 16px 0px 40px;
+    font-family: Roboto Regular, Helvetica Neue, sans-serif;
+    font-size: 14px;
+    color:#4285f4;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 18px;
+    border: 1px solid #DADCE0;
+  }
+
+  #ar-button:active {
+    background-color: #E8EAED;
+  }
+
+  #ar-button:focus {
+    outline: none;
+  }
+
+  #ar-button:focus-visible {
+    outline: 1px solid #4285f4;
+  }
+>>>>>>> 72ff709c575001a84ad03e1c2ead26b942a61cc9

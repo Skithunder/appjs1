@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import {Calculator} from './modules/calculator.js';
 
 // Create an instance of the Calculator class
@@ -323,3 +324,26 @@ function divide() {
 
 
 */ 
+=======
+
+let x = 10;
+let y = 20;
+let z = x + y;
+
+//document.getElementById("myp2").innerHTML = "Hello JavaScript";
+
+
+
+//const element1 = document.getElementsByClassName("myp1");
+
+let myArray = [
+    { name: 'John', age: 30 },
+    { name: 'Jane', age: 25 },
+    { name: 'Bob', age: 40 }
+  ];
+
+//console.log(myArray[0].name)
+
+console.log("værdien af z er: "+z);
+
+>>>>>>> 72ff709c575001a84ad03e1c2ead26b942a61cc9
